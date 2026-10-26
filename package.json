@@ -1,0 +1,12 @@
+{
+  "name": "msw-esm-named-import-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs",
+    "workaround": "node repro.mjs --sync"
+  },
+  "dependencies": {
+    "msw": "3.0.3"
+  }
+}
